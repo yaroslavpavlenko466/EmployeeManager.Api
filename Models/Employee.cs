@@ -7,6 +7,6 @@ public class Employee
     public string Email { get; set; } = "";
     public string PhoneNumber { get; set; } = "";
     public string PersonalCode { get; set; } = "";
-    public string HireDate { get; set; } = ""; //Поменять
-    public float Salary { get; set; }
+    public DateOnly HireDate { get; set; } 
+    public decimal Salary { get; set; }
 }
